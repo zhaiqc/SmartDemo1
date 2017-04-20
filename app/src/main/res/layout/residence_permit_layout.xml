@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_marginTop="5sp"
+                android:gravity="center"
+                android:text="居住证办理"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:text="      流动人口应当自到达居住地之日起3个工作日内，持本人居民身份证等有效身份证件和有关材料，向居住地公安派出所申报居住登记。公民离开常住户口所在地，到其他城市居住半年以上的，符合有合法稳定就业、合法稳定住所、连续就读条件之一的，可以申领居住证。其中，“居住半年以上”的认定标准为在“山东省流动人口服务管理综合信息系统”（以下简称“系统”）办理居住登记满6个月。按照我市的实际情况，区与区之间流动人员不再按照流动人口进行居住登记，区与县、县与县之间流动人员继续按照流动人口进行居住登记，符合条件的人员申领居住证需提供如下材料：
+1、申请人（委托代理人）居民身份证原件及复印件；
+2、已购买房屋（房产证、土地证、商品房买卖合同和发票）或者已租赁房屋（含村、居委会开具的居住证明和租赁合同）或者居住在工作单位（由工作单位开具居住在单位内部的证明）。
+3、劳动合同、工商营业执照、务工经商证明相关材料。
+   4、由所在学校或培训机构开具的连续就读的证明材料。" />
+
+            <include layout="@layout/include_layout" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

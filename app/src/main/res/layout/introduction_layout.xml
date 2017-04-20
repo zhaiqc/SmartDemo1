@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_marginTop="5sp"
+                android:gravity="center"
+                android:text="中心简介"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20sp"
+    android:text="   2006年9月份，淄博市在原市、区(县)、高新区住房资金管理中心及齐鲁石化公司、淄博矿业集团有限责任公司住房公积金管理机构的基础上，组建成立了淄博市住房公积金管理中心，由新成立的淄博市住房公积金管理中心对全市住房公积金实行统一制度、统一管理、统一核算。　
+         淄博市住房公积金管理中心为淄博市人民政府直属的正县级事业单位，主要负责编制、执行住房公积金归集、使用计划；记载职工住房公积金的缴存、提取、使用情况；负责住房公积金的核算；审批住房公积金的提取、使用；负责住房公积金的保值和归还；编制住房公积金归集、使用计划执行情况的报告；负责全市利用住房公积金支持保障性住房建设试点项目的受理、调查、审核和报批等工作；负责按住房公积金管理条例规定开展行政执法工作。
+　　淄博市住房公积金管理中心内设机关党委、办公室、组织人事科、计财科、资金科、监督科、贷款科、信息管理科，下设2个分中心、10个管理部，均为其分支机构。各分中心、管理部不设会计核算机构，与市中心统一制度、统一管理、统一核算。在齐鲁石化公司设立淄博市住房公积金管理中心齐鲁石化分中心；在淄博矿业集团有限责任公司设立淄博市住房公积金管理中心淄矿集团分中心，规格均为副处级。在各区县、高新区设立管理部，分别为：淄博市住房公积金管理中心市直管理部、张店管理部、淄川管理部、博山管理部、周村管理部、临淄管理部、桓台管理部、高青管理部、沂源管理部、高新区管理部，规格均为科级。各分中心、管理部根据市住房公积金管理中心的授权，负责住房公积金的归集、个人住房公积金贷款的考察与贷款回收等管理工作。"/>
+
+            <include layout="@layout/include_layout" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

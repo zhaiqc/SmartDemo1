@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_marginTop="5sp"
+                android:gravity="center"
+                android:text="居民身份证办理"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:padding="10dp"
+                android:text="公民应当自年满十六周岁之日起三个月内，向常住户口所在地公安机关申请领取居民身份证。
+（一）申、换、补领居民身份证：
+1、未满16周岁公民申领、换领、补领居民身份证的
+由监护人持《居民户口簿》、监护人身份证代为办理，现场采集照片。
+2、16周岁以上，申领、补领居民身份证的
+交验《居民户口簿》，现场采集照片和指纹。
+3、16周岁以上换领居民身份证的
+⑴交验《居民户口簿》；
+⑵交验原居民身份证；（在领取新的居民身份证时须交回原居民身份证）
+⑶现场采集照片和指纹。
+4、对福利院、敬老院等其他行动不便人员，实行预约上门服务。
+（二）临时居民身份证办理
+公民在申领、换领、补领居民身份证期间，因急需用证，可以向户口所在地派出所申请领取临时居民身份证一日内持下列手续到分局治安大队领取临时身份证
+⑴《居民身份证领取凭证》。
+⑵《办理第二代临时居民身份证申请表》。
+领取了临时居民身份证的公民在领取居民身份证时，应当交回临时居民身份证。" />
+
+            <include layout="@layout/include_layout" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

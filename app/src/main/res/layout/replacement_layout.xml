@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="补领婚姻登记证"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:layout_marginBottom="20sp"
+                android:layout_marginTop="5sp"
+                android:textSize="20sp"/>
+            <ImageView
+                android:id="@+id/img_marry1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+            <ImageView
+                android:id="@+id/img_marry2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <ImageView
+                android:id="@+id/img_marry3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               />
+            <ImageView
+                android:id="@+id/img_marry4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              />
+<include layout="@layout/include_layout"></include>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

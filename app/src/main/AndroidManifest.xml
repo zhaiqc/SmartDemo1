@@ -1,0 +1,120 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zqc.smartdemo">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Service.MarriageRegistration.MarriageRegistrationActivity"/>
+        <activity android:name=".Service.FertilityAdoption.FertilityAdoptionActivity"/>
+        <activity android:name=".Service.MarriageRegistration.DivorceActivity"/>
+        <activity android:name=".Service.MarriageRegistration.IncludeActivity"/>
+        <activity android:name=".Service.MarriageRegistration.MarryActivity"/>
+        <activity android:name=".Service.MarriageRegistration.ReplacementActivity"/>
+        <activity android:name=".Service.ServiceActivity"/>
+        <activity android:name=".Service.FertilityAdoption.InsuredActivity"/>
+        <activity android:name=".Service.Register.ResgisterActivity"/>
+        <activity android:name=".Service.Register.ImmigrationActivity"/>
+        <activity android:name=".Service.Register.CheckInActivity"/>
+        <activity android:name=".Service.Register.ResidencePermit"/>
+        <activity android:name=".Service.Register.DeathAcyivity"/>
+        <activity android:name=".Service.Register.EmigrationActivity"/>
+        <activity android:name=".Service.Register.HouseholdRegister"/>
+        <activity android:name=".Service.Register.IdentityCardActivity"/>
+        <activity android:name=".Service.science.ScienceActivity"/>
+        <activity android:name=".Service.science.ReviewActivity"/>
+        <activity android:name=".Service.science.ReeducationActivity"/>
+        <activity android:name=".Service.Hygiene.ProcessActivity"/>
+        <activity android:name=".Service.Hygiene.HygieneActivity"/>
+        <activity android:name=".Service.Hygiene.DiseaseActivity"/>
+        <activity android:name=".Service.Utilities.UtilitiesActivity"/>
+        <activity android:name=".Service.Utilities.TurnOutActivity"/>
+        <activity android:name=".Service.Utilities.IntoActivity"/>
+        <activity android:name=".Service.HousingManagement.ChangeRegistrationActivity"/>
+        <activity android:name=".Service.HousingManagement.CorrectRegistrationActivity"/>
+        <activity android:name=".Service.HousingManagement.HousingManagementActivity"/>
+        <activity android:name=".Service.HousingManagement.ObjectionRegistrationActivity"/>
+        <activity android:name=".Service.HousingManagement.ProofOfOwnershipActivity"/>
+        <activity android:name=".Service.HousingManagement.TransferRegistrationActivity"/>
+        <activity android:name=".Service.LaborEmployment.LaborEmploymentActivity"/>
+        <activity android:name=".Service.LaborEmployment.UnemploymentActivity"/>
+        <activity android:name=".Service.LaborEmployment.YearTrialActivity"/>
+        <activity android:name=".Service.LaborEmployment.UnemploymentRegistrationActvity"/>
+        <activity android:name=".Service.LaborEmployment.TaxReliefActivity"/>
+        <activity android:name=".Service.LaborEmployment.SupplementaryActivity"/>
+        <activity android:name=".Service.LaborEmployment.PensionsActivity"/>
+        <activity android:name=".Service.LaborEmployment.JobRegistrationActivity"/>
+        <activity android:name=".Service.LaborEmployment.InsuranceActvity"/>
+        <activity android:name=".Service.LaborEmployment.HandleActivity"/>
+        <activity android:name=".Service.LaborEmployment.FinancialSupportActivity"/>
+        <activity android:name=".Service.LaborEmployment.CertificateActivity"/>
+        <activity android:name=".Service.LaborEmployment.DevelopmentSubsidyActivity"/>
+        <activity android:name=".Service.LaborEmployment.EmploymentDifficultiesIdentifiedActivity"/>
+        <activity android:name=".Service.LaborEmployment.EntrepreneurialSubsidyActivity"/>
+        <activity android:name=".Service.LaborEmployment.EntrepreneurshipRegistrationActivity"/>
+        <activity android:name=".Service.LaborEmployment.FileAgentActvity"/>
+        <activity android:name=".Service.LaborEmployment.LaborContractFilingActivity"/>
+        <activity android:name=".Service.LaborEmployment.EmployeeRegistrationActvity"/>
+        <activity android:name=".Service.SocialSecurity.AllowancesActvity"/>
+        <activity android:name=".Service.SocialSecurity.ChronicActivity"/>
+        <activity android:name=".Service.SocialSecurity.HospitalizedActivity"/>
+        <activity android:name=".Service.SocialSecurity.IndustrialAndCommercialInsuranceActivity"/>
+        <activity android:name=".Service.SocialSecurity.InquireActivity"/>
+        <activity android:name=".Service.SocialSecurity.MaternityInsuranceActivity"/>
+        <activity android:name=".Service.SocialSecurity.MedicalExpenses"/>
+        <activity android:name=".Service.SocialSecurity.MedicalInsurancePaymentActivity"/>
+        <activity android:name=".Service.SocialSecurity.NewCardActivity"/>
+        <activity android:name=".Service.SocialSecurity.PaymentActivity"/>
+        <activity android:name=".Service.SocialSecurity.ReSubmitActvity"/>
+        <activity android:name=".Service.SocialSecurity.SocialSecurityActivity"/>
+        <activity android:name=".Service.SocialSecurity.SubsidyActivity"/>
+        <activity android:name=".Service.SocialSecurity.UrbanEnterprisesActivity"/>
+        <activity android:name=".Service.TaxPaid.TaxPaidActivity"/>
+        <activity android:name=".Service.TaxPaid.loanActivity"/>
+        <activity android:name=".CoordinatorLayoutActivity"/>
+        <activity android:name=".Service.ConsumerRights.ComplaintReportActivity"/>
+        <activity android:name=".Service.ConsumerRights.ConsumerRightsActivity"/>
+        <activity android:name=".Service.ConsumerRights.WorkInjuryActivity"/>
+        <activity android:name=".Service.OldMan.InterruptedActivity"/>
+        <activity android:name=".Service.OldMan.NewParticipationActivity"/>
+        <activity android:name=".Service.OldMan.NormalParticipationActivity"/>
+        <activity android:name=".Service.OldMan.OldManActivity"/>
+        <activity android:name=".Service.OldMan.PayBackActivity"/>
+        <activity android:name=".Service.OldMan.ReceiveActivity"/>
+        <activity android:name=".Service.OldMan.SurrenderActivity"/>
+        <activity android:name=".Service.OldMan.TerminationActivity"/>
+        <activity android:name=".Service.OldMan.VillageActivity"/>
+        <activity android:name=".Service.IntegratedOther.SealActivIty"/>
+        <activity android:name=".Service.IntegratedOther.DisabilityCertificateActivity"/>
+        <activity android:name=".Service.IntegratedOther.IntegratedOtherActivity"/>
+        <activity android:name=".ConvenienceInquiries.ConvenienceInquiriesActivity"/>
+        <activity android:name=".ConvenienceInquiries.SocialSecurity.SocialSecurityActivity"/>
+
+        <activity android:name=".ConvenienceInquiries.HousingFund.HousingFundActivity"/>
+        <activity android:name=".ConvenienceInquiries.HousingFund.IntroductionActivity"/>
+        <activity android:name=".ConvenienceInquiries.HousingFund.NewsActivity"/>
+        <activity android:name=".ConvenienceInquiries.Taxation.TaxationActvity"/>
+
+        <activity android:name=".ConvenienceInquiries.Illegal.IllegalActvity"/>
+        <activity android:name=".ConvenienceInquiries.VehicleInformation.VehicleInformationActivity"/>
+        <activity android:name=".ConvenienceInquiries.HousingFund.InquireActivity"/>
+        <activity android:name=".ConvenienceInquiries.IDCard.IDCardActivity"/>
+        <activity android:name=".ConvenienceInquiries.Driver.DriverActivity"/>
+        <activity android:name=".ConvenienceInquiries.Name.NameActvity"/>
+        <activity android:name=".ConvenienceInquiries.Bus.BusActivity"/>
+        <activity android:name=".ConvenienceInquiries.library.libraryActivity"/>
+        <activity android:name=".ConvenienceInquiries.Bill.BillActivity"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="5sp"
+        android:gravity="center"
+        android:text="新生婴儿如何办理出生登记？"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="   婴儿出生一个月以内由户主、亲属、抚养人或者邻居持医院的出生医学证明或其他证件及户口簿向婴儿常住地的户口登记机关申报出生登记。
+
+  正常情况下办理出生落户应由父或母持《出生医学证明》、《居民户口簿》和身份证、结婚证和其他证明材料到父或母户口所在地派出所申请办理。" />
+
+    <include layout="@layout/include_layout" />
+</LinearLayout>

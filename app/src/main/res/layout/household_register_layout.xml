@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="5sp"
+        android:gravity="center"
+        android:text="补办居民户口簿"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="     应由户主持本户所有成年人签字（捺手印）认可的申请书及时到户口所在地公安派出所申请补发。新《居民户口簿》补发后，原《居民户口簿》予以作废；原《居民户口簿》找到的，应交回户口所在地公安派出所。" />
+
+    <include layout="@layout/include_layout" />
+
+</LinearLayout>

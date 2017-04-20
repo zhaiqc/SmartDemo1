@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_marginTop="5sp"
+                android:gravity="center"
+                android:text="迁出登记"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:padding="10dp"
+                android:text="   迁出登记是指公民由常住户口管辖区，迁往其它地方办理户口迁移的一项登记制度。
+  1、迁往市外
+凭迁入地公安机关签发的《准予迁入证明》办理户口迁出手续。省外大中专院校录取的新生凭《录取通知书》，办理迁出手续（本省内大中专院校招生不再作户口迁移）。
+  2、迁往市内
+网上迁移，由迁入地派出所凭有关手续落户，迁出地派出所从网上查询，只作户口迁出登记。
+  3、注销户口
+      ⑴参军入伍
+凭《应征入伍通知书》注销户口。
+      ⑵失踪
+由户主或亲属凭法院出具的宣告失踪法律文书、失踪人的《居民身份证》（身份证予以收缴）予以注销户口。
+     ⑶出境、出国定居人员
+出境、出国定居注销户口凭当事人出具的能够证明取得定居资格的有效证明：定居台湾的，凭出入境管理部门户口注销通知书；定居港、澳的，凭前往港澳通行证、公安机关注销户口通知书；定居国外的，凭省公安厅签发的出国定居证、护照等，同时收缴出境、出国定居人员的《居民身份证》。
+上述条款均使用《居民户口簿》、《迁出申报单》。" />
+
+            <include layout="@layout/include_layout" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

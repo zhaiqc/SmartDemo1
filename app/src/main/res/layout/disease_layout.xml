@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_marginTop="5sp"
+                android:gravity="center"
+                android:text="慢性病鉴定申请须知"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:padding="10dp"
+                android:text="一、鉴定医院：
+淄博广电医院（张店区柳泉路西二巷10号，中国银行北，侨联医院南门往西）
+二、所需材料：
+1、《高新区城乡居民基本医疗保险慢性病鉴定申请表》一份，贴一寸照片，按要求正确填写并选择鉴定病种。
+2、住院病历复印件（二级以上公立医院）。
+3、身份证复印件（A4纸）。
+4、未住院者需提供：
+（1）诊断证明书（二级以上公立医院）。
+（2）两年内连续门诊病历复印件（三次以上）。
+（3）近期化验单或检查报告复印件。
+三、申报受理时间：
+每个季度（3、6、9、12月）的1日至5日（节假日顺延）。
+四、注意事项：
+1、申请人根据病情最多可选择申请三种慢性病，所选病种与病历资料一致。
+2、鉴定材料提交后统一存档，不予退还。
+3、对鉴定结果有异议的，可在领取鉴定结果后一个月内申请复检。
+4、慢性病鉴定合格者，请在签约时提供本人农业银行银联卡复印件。
+五、咨询电话：3598009
+"/>
+            <include layout="@layout/include_layout"/>.
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

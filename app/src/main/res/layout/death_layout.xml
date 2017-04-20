@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="5sp"
+        android:gravity="center"
+        android:text="死亡登记"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="     公民死亡，城市在葬前，农村在一个月以内，凭《死亡医学证明书》（或单位证明）、户口簿、死亡者身份证，向其常住户口所在地公安派出所申报死亡登记，注销户口，缴交居民身份证。" />
+
+    <include layout="@layout/include_layout" />
+</LinearLayout>
